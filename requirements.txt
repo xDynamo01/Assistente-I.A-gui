@@ -1,1 +1,2 @@
 SpeechRecognition==3.14.3
+vosk-model-small-pt-0.3
