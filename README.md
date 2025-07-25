@@ -34,8 +34,8 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina local
 
 1. Clone o Repositório
 Generated bash
-git clone https://github.com/[seu-usuario]/[nome-do-seu-repositorio].git
-cd [nome-do-seu-repositorio]
+git clone https://github.com/xDynamo01/Assistente-I.A-gui.git
+cd Assistente-I.A-gui
 Use code with caution.
 Bash
 2. Crie um Ambiente Virtual (Recomendado)
@@ -50,6 +50,7 @@ python3 -m venv venv
 source venv/bin/activate
 Use code with caution.
 Bash
+
 3. Instale as Dependências
 Crie um arquivo chamado requirements.txt na raiz do projeto com o seguinte conteúdo:
 Generated txt
@@ -68,7 +69,8 @@ Generated bash
 pip install -r requirements.txt
 Use code with caution.
 Bash
-4. Baixe o Modelo de Linguagem Vosk (Offline)
+
+4. Baixe o Modelo de Linguagem Vosk (Offline) # recomendado utilizar o dowload.py.
 Para o reconhecimento de voz offline funcionar, você precisa baixar um modelo em português.
 Vá para a página de modelos do Vosk.
 Baixe um modelo para Português (o vosk-model-small-pt-0.3 é uma boa opção leve).
