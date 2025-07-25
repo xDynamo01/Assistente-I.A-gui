@@ -9,7 +9,7 @@ import threading
 
 # ======================================================================
 # !!! COLOQUE SUA CHAVE DA API GROQ AQUI !!!
-CHAVE_API_GROQ = "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"
+CHAVE_API_GROQ = "SUA-API-KEY-AQUI"
 # ======================================================================
 
 client = Groq(api_key=CHAVE_API_GROQ)
